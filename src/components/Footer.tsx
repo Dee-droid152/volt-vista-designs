@@ -12,22 +12,22 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">Contact Information</h3>
             <div className="space-y-4">
               <a 
-                href="mailto:contact@voltvistadesigns.com" 
+                href="mailto:your.email@example.com" 
                 className="flex items-center gap-3 text-muted-foreground hover:text-electric-blue transition-colors"
               >
                 <Mail className="h-5 w-5" />
-                <span>contact@voltvistadesigns.com</span>
+                <span>your.email@example.com</span>
               </a>
               <a 
-                href="tel:+15551234567" 
+                href="tel:+1234567890" 
                 className="flex items-center gap-3 text-muted-foreground hover:text-electric-blue transition-colors"
               >
                 <Phone className="h-5 w-5" />
-                <span>+1 (555) 123-4567</span>
+                <span>+1 (234) 567-890</span>
               </a>
               <div className="flex items-center gap-3 text-muted-foreground">
                 <MapPin className="h-5 w-5" />
-                <span>San Francisco, California</span>
+                <span>Your City, Your Country</span>
               </div>
             </div>
           </div>
@@ -78,15 +78,15 @@ export default function Footer() {
         <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex gap-4">
             {[
-              { icon: Linkedin, href: "#" },
-              { icon: Github, href: "#" },
-              { icon: Twitter, href: "#" },
+              { icon: Linkedin, href: "#", label: "LinkedIn" },
+              { icon: Github, href: "#", label: "GitHub" },
+              { icon: Twitter, href: "#", label: "Twitter" },
             ].map((social, index) => (
               <a
                 key={index}
                 href={social.href}
                 className="bg-background hover:bg-electric-blue text-foreground hover:text-white p-2 rounded-full transition-colors"
-                aria-label={`Social link ${index + 1}`}
+                aria-label={social.label}
               >
                 <social.icon className="h-5 w-5" />
               </a>
@@ -98,7 +98,7 @@ export default function Footer() {
                 href="#"
                 className="font-bold text-foreground hover:text-electric-blue transition-colors"
               >
-                VoltVista<span className="text-electric-blue">Designs</span>
+                Your Name<span className="text-electric-blue">Electrical</span>
               </a>
             </div>
             <div>© {new Date().getFullYear()} All Rights Reserved</div>
