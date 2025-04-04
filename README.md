@@ -1,73 +1,42 @@
-# Welcome to your Lovable project
+# Electrical Engineering Portfolio
 
-## Project info
+## 📌 About Me
+Hello! I'm **Peter Ndinguri**, an Electrical Engineer specializing in **Circuit Design, Embedded Systems, Power Systems, and Control Systems**. I am passionate about designing, developing, and testing electrical systems and components to enhance efficiency and reliability.
 
-**URL**: https://lovable.dev/projects/f31cdd66-650f-4d23-bce8-f0db0949f109
+## 💼 Skills
+- Circuit Design & Simulation (Proteus, KiCad, Altium Designer, LTspice, Multisim)
+- Embedded Systems (Arduino, STM32, ESP32, Microcontroller Programming)
+- Power Systems (Renewable Energy, Power Transmission & Distribution)
+- Control Systems (PID Control, PLC Programming, SCADA Systems)
+- Programming Languages (C, C++, Python, MATLAB)
+- Electrical Building Plans & Wiring Diagrams
 
-## How can I edit this code?
+## 📂 Projects
+### 1. Smart Home Automation System
+- **Description:** A comprehensive home automation system using Arduino and ESP32 to control lighting, temperature, and security systems remotely.
+- **Tools/Technologies:** Arduino IDE, C++, ESP32, Relay Modules, Sensors.
+- **Documentation:** [Smart Home Documentation](./Smart-Home-Automation/Documentation.pdf)
+- **Code/Files:** [Smart Home Code](./Smart-Home-Automation/)
 
-There are several ways of editing your application.
+### 2. Solar Power System Design
+- **Description:** Design and simulation of a solar power system for a residential building using MATLAB and Simulink.
+- **Tools/Technologies:** MATLAB, Simulink, PV Panels, MPPT Algorithm.
+- **Documentation:** [Solar Power Documentation](./Solar-Power-System-Design/Documentation.pdf)
+- **Code/Files:** [Solar Power Code](./Solar-Power-System-Design/)
 
-**Use Lovable**
+### 3. IoT-Based Temperature Monitoring System
+- **Description:** An embedded system for real-time temperature monitoring and logging using STM32 and MQTT protocol.
+- **Tools/Technologies:** STM32, C, MQTT, Python.
+- **Documentation:** [IoT Temperature Monitoring Documentation](./IoT-Temperature-Monitoring/Documentation.pdf)
+- **Code/Files:** [IoT Temperature Monitoring Code](./IoT-Temperature-Monitoring/)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f31cdd66-650f-4d23-bce8-f0db0949f109) and start prompting.
+## 📜 Certifications & Training
+- Introduction to Embedded Systems - Coursera - 2024
+- MATLAB Fundamentals - MathWorks - 2023
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📞 Contact
+- **Phone:** 0792192378
+- **Email:** ptrptrping@gmail.com
+- **GitHub:** [Dee-droid152](https://github.com/Dee-droid152)
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/f31cdd66-650f-4d23-bce8-f0db0949f109) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Feel free to explore my repositories to see more of my work. Thank you for visiting!
