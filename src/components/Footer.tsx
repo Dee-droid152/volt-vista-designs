@@ -12,11 +12,11 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">Contact Information</h3>
             <div className="space-y-4">
               <a 
-                href="mailto:your.email@example.com" 
+                href="mailto:ptrptrping2002@gmail.com" 
                 className="flex items-center gap-3 text-muted-foreground hover:text-electric-blue transition-colors"
               >
                 <Mail className="h-5 w-5" />
-                <span>your.email@example.com</span>
+                <span>ptrptrping2002@gmail.com</span>
               </a>
               <a 
                 href="tel:+1234567890" 
