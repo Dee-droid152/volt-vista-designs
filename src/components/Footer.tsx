@@ -19,15 +19,15 @@ export default function Footer() {
                 <span>ptrptrping2002@gmail.com</span>
               </a>
               <a 
-                href="tel:+1234567890" 
+                href="tel:+254792192378" 
                 className="flex items-center gap-3 text-muted-foreground hover:text-electric-blue transition-colors"
               >
                 <Phone className="h-5 w-5" />
-                <span>+1 (234) 567-890</span>
+                <span>+254 792 192 378</span>
               </a>
               <div className="flex items-center gap-3 text-muted-foreground">
                 <MapPin className="h-5 w-5" />
-                <span>Your City, Your Country</span>
+                <span>Nairobi, Kenya</span>
               </div>
             </div>
           </div>
@@ -98,7 +98,7 @@ export default function Footer() {
                 href="#"
                 className="font-bold text-foreground hover:text-electric-blue transition-colors"
               >
-                Your Name<span className="text-electric-blue">Electrical</span>
+                Dee <span className="text-electric-blue">Tronics and Planning</span>
               </a>
             </div>
             <div>© {new Date().getFullYear()} All Rights Reserved</div>
